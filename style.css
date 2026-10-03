@@ -21,7 +21,7 @@ header {
   align-items: center;
   width: 100%;
   max-width: 1000px;
-  padding: 100px;
+  padding: 70px;
 }
 
 .header-button {
@@ -46,6 +46,20 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
+  gap: 50px;
+  padding: 0 20px;
+}
+
+.counter {
+  background-color: linear-gradient(135deg, #1a1a1a 0%, #333333 100%);
+  color: #000000;
+  padding: 14px 36px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .game-container {
@@ -100,7 +114,7 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.75s ease;
+  transition: transform 0.2s ease;
   transform-style: preserve-3d;
   backface-visibility: hidden;
   transform: rotateY(180deg);
