@@ -2,4 +2,4 @@
 
 ## Description
 
-- Developer: Mathew Sitnikov
+Developer: Mathew Sitnikov
