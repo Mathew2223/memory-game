@@ -61,7 +61,7 @@ function createLeaderboardTable() {
 }
 
 function showWinModal(finalMoves) {
-  modal.innerHTML = "";
+  modal.replaceChildren();
 
   const title = document.createElement("h2");
   title.textContent = "🎉 You Won!";
@@ -142,7 +142,7 @@ function checkMatch() {
 }
 
 function renderDashboard() {
-  modal.innerHTML = "";
+  modal.replaceChildren();
 
   const title = document.createElement("h2");
   title.textContent = "Dashboard";
@@ -216,7 +216,7 @@ function initGame() {
   count = 0;
   moves = 0;
   updateCounter();
-  gameBoard.innerHTML = "";
+  gameBoard.replaceChildren();
 
   const fragment = document.createDocumentFragment();
   shuffle([...cardsData, ...cardsData]).forEach((card, index) => {
